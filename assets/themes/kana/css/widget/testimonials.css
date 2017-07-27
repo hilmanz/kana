@@ -1,0 +1,70 @@
+/*
+Theme Name: EUREKA!!
+Author: <a href="http://eurekathemes.com" target="_blank">acitjazz</a>
+Version: 1.2
+*/
+/* ===============================PLUGIN================================ */
+.thumb-testi img{
+	width:55px; height:55px;
+}
+.thumb-testi{
+	width:55px; height:55px;
+	overflow:hidden;
+	float:left;
+	margin:0 10px 0 0;
+	border-radius:200px;
+}
+#testimonials .testi-entry{
+	margin:0 20px 0 80px;
+	position:relative;
+}
+#testimonials h4{
+	font-size:14px;
+	margin:0 0 0 0;
+}
+#testimonials h5{
+	margin:0 0 5px 0;
+	font-size:14px;
+	font-weight:300;
+	font-style:italic;
+}
+#testimonials .testimonials{
+	clear:both;
+	padding:10px 0;
+	font-size:12px;
+}
+#testimonials p{
+	margin:0
+}
+#testimonials .testimonials:last-child{
+	border:none;
+}
+#testimonials .widget-title{
+	border-bottom:solid 2px #444;
+	padding:0 0 5px 0;
+	margin:0 0 10px 0;
+}
+
+#testimonials{
+	position:relative;
+}
+#testimonials .flex-direction-nav .flex-next{
+	top:10px;
+	right:0;
+}
+#testimonials .flex-direction-nav .flex-prev{
+	top:10px;
+	right:40px;
+	left:auto;
+}
+#testimonials .flex-direction-nav .flex-next:before,
+#testimonials .flex-direction-nav .flex-prev:before{
+	font-size:24px;
+	width:40px;
+	display:block;
+	text-align:center;
+}
+#testimonials .flex-direction-nav .flex-disabled{
+	opacity: 0.6!important;
+	filter: alpha(opacity=60);
+}

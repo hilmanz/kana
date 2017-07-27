@@ -1,0 +1,37 @@
+.widget_oauth_twitter_widget {
+	text-align: left;
+	padding: 15px 0px 0px;
+	list-style:none;
+}
+.oauth-twitter-tweet {
+	font-style: italic;
+}
+#oauth-twitter-widget-icon, #oauth-twitter-widget-pic {
+	float: left;
+	border: 0px;
+	margin-right: 5px;
+}
+#oauth-twitter-follow-link {
+	text-align: right;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font: 7pt/15pt arial;
+}
+.oauth-twitter-tweet-time {
+	font-size:10px;
+	float:right;
+	color: #999999;
+}
+.rowtwit {
+	clear:both;
+	overflow:hidden;
+	margin:0 0 20px 0
+}
+.thumbtwitter{
+	float:left;
+	display:block;
+	width:48px; height:48px;
+	margin:0 10px 20px 0;
+	border-radius:5px;
+	overflow:hidden;
+}

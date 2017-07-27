@@ -1,0 +1,144 @@
+.pricetable-clear{
+	clear:both;
+	position:absolute;
+	height:16px;
+	width:100%;
+	bottom:0;
+}
+
+.pricetable{
+	position:relative;
+	margin:50px auto;
+}
+.pricetable p{
+	margin:0;
+}
+.pricetable-subtitle{
+	padding: 10px 0;
+	border-bottom: solid 1px #ddd;
+	background: #eee;
+	color:#333;
+	text-align:center;
+}
+.pricetable-subtitle p{
+	font-size:18px;
+}
+.pricetable .pricetable-inner{
+	position: relative;
+	display:table;
+	width:100%;
+	color:#7f7f7f;
+}
+
+.pricetable .pricetable-column{
+	float: left;
+	line-height: 1em;
+	
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+.pricetable .pricetable-column.pricetable-featured{
+	position:relative;
+	top:-15px;
+}
+
+.pricetable .pricetable-column.pricetable-featured .pricetable-price{
+	padding:30px 0;
+}
+.pricetable .pricetable-column.pricetable-featured h3.pricetable-name{
+	background:#009177;
+}
+.pricetable .pricetable-column.pricetable-featured .pricetable-header{
+	background:#01b494;
+}
+
+/* @group Borders */
+.pricetable .pricetable-column.pricetable-standard.pricetable-last,
+.pricetable .pricetable-column.pricetable-standard.pricetable-before-featured{
+	border-right: none;
+}
+.pricetable-column-inner{
+	background:#fff;
+	border:solid 1px #e3e3e3;
+	position:relative;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	overflow:hidden;
+}
+.pricetable-column-inner:hover{
+	background:#f6f6f6;
+}
+.pricetable .pricetable-feature p.pricetable-feature-desc{
+	color:#949494;
+	font-size:12px;
+}
+.pricetable .pricetable-feature p.pricetable-feature-title{
+	font-size:16px;
+}
+/* @group Headers */
+
+.pricetable h4.pricetable-price{
+	font-size:40px;
+	padding:10px 0;
+	color:#fff;
+	margin: 0 !important;
+}
+.pricetable h3.pricetable-name{
+	background:#2d2d2d;
+	margin: 0 0 0 0 !important;
+	padding:0 20px;
+	line-height:40px;
+	font-size: 18px;
+	text-align: center;
+	color:#fff;
+	text-transform:uppercase;
+	border-bottom:solid 1px #e3e3e3;
+}
+.pricetable .pricetable-header{
+	text-align:center;
+	background:#444;
+	position:relative;
+	z-index:10;
+}
+.pricetable .pricetable-header p{
+	margin: 0;
+	color: #fff;
+	font-weight: bold;
+}
+
+/* @end */
+
+/* @group Features */
+
+.pricetable .pricetable-features{
+	position: relative;
+}
+
+.pricetable .pricetable-feature {
+	position: relative;
+	color: #7f7f7f;
+	margin: 0 15px;
+	padding: 15px 0;
+	text-align:center;
+	font-size:14px;
+	border-bottom:solid 1px #e3e3e3;
+}
+
+/* @end */
+
+/* @group Button */
+.pricetable-button{
+	padding:20px 0;
+	clear:both;
+	text-align:center;
+}
+.pricetable br{
+    display: none;
+}
+
+/* @end */

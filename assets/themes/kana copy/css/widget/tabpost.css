@@ -1,0 +1,133 @@
+/*
+Theme Name: EUREKA!!
+Author: <a href="http://eurekathemes.com" target="_blank">acitjazz</a>
+Version: 1.2
+*/
+/* ===============================PLUGIN================================ */
+
+#tabpost ul {
+	margin: 0 !important;
+	padding:0 0 10px 0 !important;
+	overflow:hidden;
+}
+
+#tabpost ul li {
+	list-style: none;
+	padding: 0;
+	background:none;
+	border-bottom:none;
+	box-shadow:0;
+}
+
+#tabpost ul li a {
+	color: #fff;
+}
+
+#tabpost ul li a:hover {
+	text-decoration: none;
+}
+
+#tabpost { 
+	position: relative; 
+	padding: .2em; 
+	zoom: 1;
+	margin: 0 0 30px 0;
+}
+#tabpost .ui-tabs-panel{
+	clear:both;
+}
+#tabpost .ui-tabs-nav { 
+	margin: 0;
+	position: relative;
+	top: 0px;
+}
+
+#tabpost .ui-tabs-nav li { 
+	list-style: none; 
+	float: left; 
+	position: relative; 
+	top: 1px; 
+	border-bottom:none; 
+	padding:10px 0; 
+	white-space: nowrap;
+	font-size: 16px;
+	border-bottom:solid 4px rgba(0,0,0,0);
+}
+#tabpost .ui-tabs-nav li:first-child a {
+	border-left:none;
+}
+#tabpost .ui-tabs-nav li:first-child {
+	border-radius:0;
+	overflow:hidden;
+}
+#tabpost .ui-tabs-nav li:last-child{
+	border-radius:0;
+	overflow:hidden;
+}
+#tabpost .ui-tabs-nav li:last-child a{
+	border-right:none;
+}
+#tabpost .ui-tabs-nav li a { 
+	float: left; 
+	padding: 0 20px;
+	line-height:30px; 
+	text-decoration: none;
+	border-right: none;
+	background:none;
+	color:#bbbbbb;
+	text-transform:uppercase;
+	border-right:solid 1px #bbb;
+}
+#tabpost .ui-tabs-nav li.ui-state-active  a,#tabpost .ui-tabs-nav li a:hover{
+	color:#545454;
+}
+#tabpost .ui-tabs-nav li:hover,#tabpost .ui-tabs-nav li.ui-state-active {
+	border-bottom:solid 4px #1bbc9b;
+}
+#tabpost .ui-tabs-panel { 
+	display: block; 
+	border: #dce3e8 1px solid;
+	padding:15px;
+	border-radius:5px;
+	overflow:hidden;
+}
+.tab-img{
+	max-width:390px;
+	float:left;
+	width:50%;
+}
+.tab-img img{
+	width:100%;
+	height:auto;
+	border-radius:5px;
+}
+.tabEntry{
+	float: left;
+	margin: 0 0 0 20px;
+	width: 40%;
+}
+.tabEntry p{
+	margin:0;
+}
+.tabTitle h3{
+	margin:0 0 10px 0;
+}
+.tabMmeta a,.tabMmeta{
+	color:#99a3b1;
+}
+@media only screen and (max-width: 900px) {
+	.tabEntry,.tab-img{
+		float: none;
+		margin:0 ;
+		width: 100%;
+	}
+	#tabpost .ui-tabs-nav li a{
+		border-right:none;
+	}
+	#tabpost ul{
+		padding:0 !important;
+	}
+	#tabpost .ui-tabs-panel { 
+		border-radius:0;
+	}
+}

@@ -1,0 +1,60 @@
+/*
+Theme Name: EUREKA!!
+Author: <a href="http://eurekathemes.com" target="_blank">acitjazz</a>
+Version: 1.2
+*/
+#facebook-box{
+	border:solid 1px #ccc;
+}
+#twitter-box{
+	border:solid 1px #ccc;
+	margin:0 0 10px 0;
+}
+
+#facebook-box .title,
+#twitter-box .title{
+	border-bottom:solid 1px #ccc;
+	height:30px;
+	padding:0 10px;
+}
+#twitter-box .title h1,#facebook-box .title h1{
+	font-size:14px;
+	text-transform:uppercase;
+	color:#0033a6;
+	margin:0;
+	float:left;
+	font-weight:bold;
+	line-height:30px;
+}
+#twitter-box .title a.twitter,#facebook-box .title a.facebook{
+	display:block;
+	width:13px; height:13px;
+	float:right;
+	margin:9px 0 0;
+	text-decoration:none;
+}
+#twitter-box .title h1{
+	color:#5281ec;
+}
+#twitter-box .entry{
+	padding:5px 10px;
+	min-height:200px;
+}
+#facebook-box .entry{
+	width:298px; height:235px;
+	overflow:hidden;
+}
+.facebook-frame{
+	margin:-35px 0 0 -1px;
+}
+
+#twitter_div ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#twitter_div ul li{
+	clear:both;
+	padding:5px 0;
+	border-bottom:dashed 1px #ccc;
+}
